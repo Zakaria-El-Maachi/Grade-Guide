@@ -1,0 +1,14 @@
+set up the middleware dependent on the auth state
+
+add a verification of the mail
+    in backend
+    in database
+
+add validation of mail using verification code
+    send mail ?
+    set up verification
+
+better design
+
+add more info on accounts ?
+clean up the connection stuff to mongodb
