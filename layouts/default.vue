@@ -74,7 +74,7 @@
                 </button>
                 <div 
                   v-show="isMenuOpen"
-                  class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+                  class="absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-40"
                 >
                   <div class="py-1">
                     <NuxtLink
@@ -113,10 +113,10 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-white border-t border-gray-100">
+    <footer class="bg-gradient-to-br from-gray-50 to-blue-50 border-t border-gray-100">
       <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
         <p class="text-center text-gray-500 text-sm">
-          © {{ new Date().getFullYear() }} StudyApp. All rights reserved.
+          © {{ new Date().getFullYear() }} Grade-Guide. All rights reserved.
         </p>
       </div>
     </footer>
